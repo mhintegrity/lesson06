@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    /* margin: 0;
+    padding: 0; */
+    background-color: black;
+    /* width: 200px; */
+    width: 100%;
+}
+
+.dropbutton {
+    display: none;
+}
+
+.navbar a {
+    /* display: block; */
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: gray;
+}
+
+/* The about menu item on the right hand side of the screen */
+#aboutmenu {
+    float: right;
+}
